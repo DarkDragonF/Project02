@@ -33,7 +33,7 @@ function StudentManager({students, setStudents, editingIndex, setEditingIndex}){
         setMajor("");
         setGender("");
       }
-    }, [editingIndex, students] ); // khi có sự thay đổi trong editingIndex hoặc students thì sẽ chạy lại hàm này
+    }, [editingIndex]); // khi có sự thay đổi trong editingIndex hoặc students thì sẽ chạy lại hàm này
     
     function handleAddOrChangeStudent(){
       const {valid, message} = Validate(sName, sID, sEmail, sPhone, major, gender);
@@ -123,7 +123,7 @@ function StudentManager({students, setStudents, editingIndex, setEditingIndex}){
              <div className="col-12 col-lg-9 col-xl-7">
                <div className="card shadow-2-strong card-registration" style={{ borderRadius: "15px" }}>
                  <div className="card-body p-4 p-md-5">
-                   <h3 className="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+                   <h3 className="mb-4 pb-2 pb-md-0 mb-md-5">Đăng Ký/Sửa Thông Tin</h3>
                    <form>
                     {/* nút đóng form */}
                   <button
@@ -182,7 +182,7 @@ function StudentManager({students, setStudents, editingIndex, setEditingIndex}){
                        <div className="col-md-6 mb-4 pb-2">
                          <div data-mdb-input-init className="form-outline">
                            <label className="form-label" >Nghành Học</label>
-                           <input type="password" id="adminPassword" className="form-control form-control-lg" value={major} onChange={handleStudentMajorChange}/>
+                           <input type="text" id="" className="form-control form-control-lg" value={major} onChange={handleStudentMajorChange}/>
                            
                          </div>
                        </div>
@@ -216,7 +216,10 @@ function StudentManager({students, setStudents, editingIndex, setEditingIndex}){
                        </div>
    
                        </div>
-                    
+
+                        <div>
+                          
+                        </div>
    
                      <div className="mt-4 pt-2">
                      <button type="button" className="btn btn-primary btn-md" onClick={handleAddOrChangeStudent}>Lưu Thông Tin</button>
