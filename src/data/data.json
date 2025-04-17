@@ -1,0 +1,42 @@
+[
+    {
+        "studentName": "Nguyen Van A",
+        "studentID": "SV001",
+        "studentEmail": "a@mail.com",
+        "studentPhone": "0912345678",
+        "studentMajor": "Computer Science",
+        "studentGender": "Nam"
+    },
+    {
+        "studentName": "Tran Thi B",
+        "studentID": "SV002",
+        "studentEmail": "b@mail.com",
+        "studentPhone": "0912345679",
+        "studentMajor": "Information Technology",
+        "studentGender": "Nữ"
+    },
+    {
+        "studentName": "Le Van C",
+        "studentID": "SV003",
+        "studentEmail": "c@mail.com",
+        "studentPhone": "0912345680",
+        "studentMajor": "Software Engineering",
+        "studentGender": "Nam"
+    },
+    {
+        "studentName": "Pham Thi D",
+        "studentID": "SV004",
+        "studentEmail": "d@mail.com",
+        "studentPhone": "0912345681",
+        "studentMajor": "Data Science",
+        "studentGender": "Nữ"
+    },
+    {
+        "studentName": "Do Van E",
+        "studentID": "SV005",
+        "studentEmail": "e@mail.com",
+        "studentPhone": "0912345682",
+        "studentMajor": "Artificial Intelligence",
+        "studentGender": "Nam"
+    }
+]
